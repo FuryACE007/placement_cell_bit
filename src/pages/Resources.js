@@ -1,4 +1,5 @@
 import React from 'react';
+import Loader from '../components/Loader';
 import StudentForm from '../components/StudentForm';
 import "./Login.css";
 
