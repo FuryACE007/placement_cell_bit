@@ -9,13 +9,13 @@ const Navbar = () => {
         <img
           src="https://www.linkpicture.com/q/logo_105.png"
           alt="college logo"
-          className=" w-10 md:w-16 pb-[0.5] "
+          className=" w-10 md:w-14 "
         />
         <div className="flex flex-col">
-          <span class="md:text-2xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
+          <span class="md:text-xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
             Bangalore Institute of Technology
           </span>
-          <span class="md:text-xl font-medium ml-4 hover:cursor-pointer">
+          <span class="md:text-lg font-medium ml-4 hover:cursor-pointer">
             Placement Cell
           </span>
         </div>
@@ -56,11 +56,10 @@ const Navbar = () => {
         </div>
       </div>
       <div class="flex-none hidden md:flex mr-3 ">
-        {/* <Link to = '/login'><button className="btn-grad active:-translate-y-1 ease-in duration-200 font-medium text-slate-100">LOG IN</button></Link> */}
         <div class="dropdown dropdown-end">
           <div
             tabindex="0"
-            className="btn-grad active:-translate-y-1 ease-in duration-200 text-slate-100"
+            className="btn-grad focus:-translate-y-1 ease-in duration-200 text-slate-100"
           >
             Log In
           </div>

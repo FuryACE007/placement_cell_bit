@@ -9,7 +9,7 @@ const Main = () => {
     <div className="background-image min-h-screen flex flex-col md:flex-row pb-4 px-4 pt-20  md:pt-28">
       <div className="left-panel w-full md:w-3/5 py-4 pt-0 mb-2 mr-3">
         <div className="w-full glassmorphism pl-10 pt-8 pb-14 md:pl-20">
-          <h1 className="text-xl w-11/12 text-center text-slate-100 py-2 mb-2 rounded-md header">
+          <h1 className="text-xl w-11/12 text-center px-2 text-slate-100 py-2 mb-2 rounded-md header">
             Companies That Visit Our Campus
           </h1>
           <Carousel />
@@ -41,7 +41,7 @@ const Main = () => {
               </li>
             </ul>
           </div>
-          <h1 className="text-xl text-center w-11/12 text-slate-100 mt-10 py-2 rounded-md header">
+          <h1 className="text-xl text-center px-2 w-11/12 text-slate-100 mt-10 py-2 rounded-md header">
             The Objectives of the Centre Are As Under:
           </h1>
           <div className=" w-11/12 bg-slate-100 text-orange-700 text-lg text-justify mt-2 mb-8 pl-8 pr-5 py-3 leading-relaxed rounded-md shadow-md backdrop-blur-xl bg-opacity-80 backdrop-filter bg-clip-padding">
