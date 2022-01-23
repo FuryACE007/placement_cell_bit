@@ -1,0 +1,16 @@
+.neumorph {
+  border-radius: 20px;
+  background: #6b9f1d;
+  box-shadow: 20px 20px 60px #5b8719, -20px -20px 60px #7bb721;
+}
+.neumorph_faculty {
+  border-radius: 23px;
+  background: #357ede;
+  box-shadow:  20px 20px 60px #2d6bbd,
+               -20px -20px 60px #3d91ff;
+}
+
+.background {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
