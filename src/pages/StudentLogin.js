@@ -37,7 +37,7 @@ const Login = () => {
               <input
                 type="email"
                 id="student_id"
-                placeholder="Student ID"
+                placeholder=""
                 className=" bg-lime-700 outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-lime-800 ease-in duration-300 "
                 required
                 ref={studentIdInputRef}
@@ -48,7 +48,7 @@ const Login = () => {
               <input
                 type="password"
                 id="student_password"
-                placeholder="Password"
+                placeholder=""
                 className=" bg-lime-700 outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-lime-800 ease-in duration-300"
                 required
                 ref={studentPasswordInputRef}

@@ -33,7 +33,7 @@ const FacultyLogin = () => {
               <input
                 type="email"
                 id="faculty_id"
-                placeholder="Faculty ID"
+                placeholder=""
                 className=" bg-[#2a69bb] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-blue-600 ease-in duration-300 "
                 required
                 ref={facultyIdInputRef}
@@ -44,7 +44,7 @@ const FacultyLogin = () => {
               <input
                 type="password"
                 id="faculty_password"
-                placeholder="Password"
+                placeholder=""
                 className=" bg-[#2a69bb] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-blue-600 ease-in duration-300"
                 required
                 ref={facultyPasswordInputRef}
