@@ -22,7 +22,7 @@ const App = () => {
       <Navbar />
       <Suspense
         fallback={
-          <div className="centered">
+          <div className="flex min-h-screen my-auto mx-auto">
             <Loader />
           </div>
         }

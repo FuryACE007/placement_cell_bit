@@ -8,13 +8,13 @@ const Main = () => {
   return (
     <div className="background-image min-h-screen flex flex-col md:flex-row pb-4 px-4 pt-20  md:pt-28">
       <div className="left-panel w-full md:w-3/5 py-4 pt-0 mb-2 mr-3">
-        <div className="w-full glassmorphism pl-10 pt-8 pb-14 md:pl-20">
-          <h1 className="text-xl w-11/12 text-center px-2 text-slate-100 py-2 mb-2 rounded-md header">
+        <div className="w-full glassmorphism pl-7 pt-8 pb-14 md:pl-20">
+          <h1 className="text-xl w-11/12 text-center px-3 text-slate-100 py-2 mb-2 rounded-md header">
             Companies That Visit Our Campus
           </h1>
           <Carousel />
         </div>
-        <div className="w-full glassmorphism pl-10 pb-10 md:pl-20 mt-5">
+        <div className="w-full glassmorphism pl-7 pb-10 md:pl-20 mt-5">
           <h1 className="text-xl w-11/12 text-center text-slate-100 mt-10 py-2 rounded-md header">
             Vision
           </h1>

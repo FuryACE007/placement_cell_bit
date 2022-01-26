@@ -6,16 +6,18 @@ const Navbar = () => {
   return (
     <div class="navbar text-neutral-content navColor z-10 shadow-xl h-fit fixed min-w-full">
       <div class="flex-1 flex-row px-2 mx-2 ">
-        <img
-          src="https://www.linkpicture.com/q/logo_105.png"
-          alt="college logo"
-          className=" w-10 md:w-14 "
-        />
+        <Link to="/">
+          <img
+            src="https://www.linkpicture.com/q/logo_105.png"
+            alt="college logo"
+            className=" w-10 md:w-16 "
+          />
+        </Link>
         <div className="flex flex-col">
-          <span class="md:text-xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
+          <span class="md:text-2xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
             Bangalore Institute of Technology
           </span>
-          <span class="md:text-lg font-medium ml-4 hover:cursor-pointer">
+          <span class="md:text-xl font-medium ml-4 hover:cursor-pointer">
             Placement Cell
           </span>
         </div>
