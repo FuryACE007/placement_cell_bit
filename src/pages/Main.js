@@ -124,8 +124,8 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className=" w-full px-8 pt-3 pb-7 mt-6 md:mt-4 items-center glassmorphism rounded-md shadow-lg">
-          <h1 className="text-xl text-center text-slate-100 py-2 mb-2 rounded-md header">
+        <div className=" w-full px-8 pt-3 pb-10 mt-6 md:mt-4 items-center glassmorphism rounded-md shadow-lg">
+          <h1 className="text-xl text-center text-slate-100 py-2 mb-2 md:my-3 rounded-md header">
             Alumni Feedback
           </h1>
           <Feedback />

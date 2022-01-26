@@ -27,6 +27,7 @@ const Footer = () => {
           <span class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start">
             <a
               href="https://www.facebook.com/bitsince1979"
+              target= "_blank"
               class="text-slate-800 hover:text-gray-100 ease-in duration-300"
             >
               <span class="sr-only">Facebook</span>
@@ -46,6 +47,7 @@ const Footer = () => {
 
             <a
               href="https://www.instagram.com/bitsince1979/"
+              target= "_blank"
               class="text-slate-900 hover:text-gray-100 ease-in duration-300"
             >
               <span class="sr-only">Instagram</span>
@@ -65,6 +67,7 @@ const Footer = () => {
 
             <a
               href="https://twitter.com/bitsince1979"
+              target= "_blank"
               class="text-slate-900 hover:text-gray-100 ease-in duration-300"
             >
               <span class="sr-only">Twitter</span>
@@ -78,7 +81,7 @@ const Footer = () => {
               </svg>
             </a>
 
-            <a href="mailto:principalbit4@gmail.com">
+            <a href="mailto:principalbit4@gmail.com " target= "_blank">
               <img
                 src="https://img.icons8.com/external-kiranshastry-lineal-kiranshastry/50/000000/external-email-interface-kiranshastry-lineal-kiranshastry.png"
                 className=" w-8 hover:animate-pulse"
