@@ -21,8 +21,8 @@ const Login = () => {
       <div class="flex flex-col w-full lg:flex-row">
         {/* Student Login */}
 
-        <div class="bg-lime-600 grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
-          <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-slate-200 border-lime-700">
+        <div class="bg-[#CD7F32] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
+          <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-slate-200 border-[#B36D28]">
             {" "}
             Student Login{" "}
           </h1>
@@ -38,7 +38,7 @@ const Login = () => {
                 type="email"
                 id="student_id"
                 placeholder=""
-                className=" bg-lime-700 outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-lime-800 ease-in duration-300 "
+                className=" bg-[#BF752C] outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-[#B36D28] ease-in duration-300 "
                 required
                 ref={studentIdInputRef}
               />
@@ -49,13 +49,13 @@ const Login = () => {
                 type="password"
                 id="student_password"
                 placeholder=""
-                className=" bg-lime-700 outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-lime-800 ease-in duration-300"
+                className=" bg-[#BF752C] outline-none border-0 rounded-lg py-3 px-3 focus:ring-2 focus:ring-[#B36D28] ease-in duration-300"
                 required
                 ref={studentPasswordInputRef}
               />
               <button
                 type="submit"
-                className=" text-left bg-[#82bd28] w-fit my-5 py-3 px-8 rounded-3xl text-slate-200 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-[#63931a] ease-in duration-300"
+                className=" text-left bg-[#D78433] w-fit my-5 py-3 px-8 rounded-3xl text-slate-200 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-[#B36D28] ease-in duration-300"
               >
                 {" "}
                 Log in{" "}
