@@ -61,7 +61,7 @@ const Navbar = () => {
         <div class="dropdown dropdown-end">
           <div
             tabindex="0"
-            className="btn-grad focus:-translate-y-1 ease-in duration-200 text-slate-100"
+            className="btn-grad focus:-translate-y-1 ease-in duration-200 text-slate-100 hover:cursor-pointer"
           >
             Log In
           </div>
