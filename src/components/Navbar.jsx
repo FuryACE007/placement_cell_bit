@@ -17,7 +17,7 @@ const Navbar = () => {
           <span class="md:text-2xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
             Bangalore Institute of Technology
           </span>
-          <span class="md:text-xl font-medium ml-4 hover:cursor-pointer">
+          <span class="md:text-xl font-regular ml-4 hover:cursor-pointer">
             Placement Cell
           </span>
         </div>

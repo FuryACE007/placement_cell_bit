@@ -51,7 +51,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -80,7 +80,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www.facebookcareers.com/" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www.facebookcareers.com/" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -109,7 +109,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www2.deloitte.com/global/en/pages/operations/solutions/systems-engineering.html" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www2.deloitte.com/global/en/pages/operations/solutions/systems-engineering.html" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -138,7 +138,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -167,7 +167,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -196,7 +196,7 @@ const CompanyDetails = () => {
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p class="text-gray-900 whitespace-no-wrap">
-                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
+                        <a href="https://www.amazon.jobs/en-gb/jobs/1213880/software-development-engineer-sde" target= "_blank" className=" font-semibold text-base text-lime-500 hover:text-lime-600 ease-in duration-200">Details</a>
                       </p>
                     </td>
                     <td class="px-5 py-5 border-b border-gray-200 bg-white text-sm">
