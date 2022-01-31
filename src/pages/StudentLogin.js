@@ -69,7 +69,7 @@ const Login = () => {
             {/* Student Login */}
 
             <div class="bg-[#c5e490] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
-              <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-slate-200 border-[#9cc05d]">
+              <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-emerald-800 font-semibold border-[#9cc05d]">
                 Student Login
               </h1>
               <form
@@ -78,7 +78,7 @@ const Login = () => {
               >
                 <div class="form-control">
                   <label htmlFor="student_id" class="label">
-                    <span class="label-text text-lg">Student ID</span>
+                    <span class="label-text text-lg text-emerald-700 font-medium">Student ID</span>
                   </label>
                   <input
                     type="text"
@@ -89,7 +89,7 @@ const Login = () => {
                     ref={studentIdInputRef}
                   />
                   <label htmlFor="student_password" class="label mt-6">
-                    <span class="label-text text-lg">Password</span>
+                    <span class="label-text text-lg text-emerald-700 font-medium">Password</span>
                   </label>
                   <input
                     type="password"
@@ -101,7 +101,7 @@ const Login = () => {
                   />
                   <button
                     type="submit"
-                    className=" text-left bg-[#b8e26e] w-fit my-5 py-3 px-8 rounded-3xl text-slate-50 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-[#9cc05d] ease-in duration-300"
+                    className=" text-left bg-[#b8e26e] w-fit my-5 py-3 px-8 rounded-3xl font-semibold text-slate-50 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-[#9cc05d] ease-in duration-300"
                   >
                     Log in
                   </button>
