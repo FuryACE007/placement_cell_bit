@@ -10,9 +10,7 @@ const Login = () => {
 
     const enteredStudentId = studentIdInputRef.current.value;
     const enteredStudentPassword = studentPasswordInputRef.current.value;
-    // const enteredFacultyId = facultyIdInputRef.current.value;
-    // const enteredFacultyPassword = facultyPasswordInputRef.current.value;
-
+   
     console.log(enteredStudentId, enteredStudentPassword);
   };
 
@@ -23,8 +21,7 @@ const Login = () => {
 
         <div class="bg-[#CD7F32] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
           <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-slate-200 border-[#B36D28]">
-            {" "}
-            Student Login{" "}
+            Student Login
           </h1>
           <form
             class=" px-16 card lg:w-2/5 md:w-3/5 w-5/6 py-20 neumorph shadow-md"
@@ -57,8 +54,7 @@ const Login = () => {
                 type="submit"
                 className=" text-left bg-[#D78433] w-fit my-5 py-3 px-8 rounded-3xl text-slate-200 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-[#B36D28] ease-in duration-300"
               >
-                {" "}
-                Log in{" "}
+                Log in
               </button>
             </div>
           </form>

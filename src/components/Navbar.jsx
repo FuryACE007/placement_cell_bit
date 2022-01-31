@@ -13,14 +13,16 @@ const Navbar = () => {
             className=" w-10 md:w-16 "
           />
         </Link>
-        <div className="flex flex-col">
-          <span class="md:text-2xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
-            Bangalore Institute of Technology
-          </span>
-          <span class="md:text-xl font-regular ml-4 hover:cursor-pointer">
-            Placement Cell
-          </span>
-        </div>
+        <Link to="/">
+          <div className="flex flex-col">
+            <span class="md:text-2xl font-semibold ml-4 leading-relaxed hover:cursor-pointer">
+              Bangalore Institute of Technology
+            </span>
+            <span class="md:text-xl font-regular ml-4 hover:cursor-pointer">
+              Placement Cell
+            </span>
+          </div>
+        </Link>
       </div>
       <div class="flex-none hidden px-2 mx-4 md:flex">
         <div class="flex items-stretch">
