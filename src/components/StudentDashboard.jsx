@@ -12,7 +12,7 @@ const StudentDashboard = (props) => {
       </h1>
 
       <div className=" mx-auto text-lg md:text-xl mt-10 py-6 md:py-10 px-6 md:px-10 bg-slate-100 md:w-5/6 rounded-2xl shadow-sm grid grid-cols-1 md:grid-cols-3 gap-7 md:gap-5">
-        <div className="md:col-span-3 text-xl md:text-2xl font-semibold py-2 border-b-4 border-b-orange-700"> <h1>Personal Info</h1> </div>
+        <div className="md:col-span-3 col-span-2 text-xl md:text-2xl font-semibold py-2 border-b-4 border-b-orange-700"> <h1>Personal Info</h1> </div>
         <h3 className="w-fit col-span-2 md:col-span-1">
           <strong>Name: </strong> {firstName} {lastName}
         </h3>
@@ -22,7 +22,7 @@ const StudentDashboard = (props) => {
         <h3 className="w-fit">
           <strong>USN: </strong> {usn}
         </h3>
-        <div className="md:col-span-3 text-xl md:text-2xl font-semibold py-3 mt-3 md:mt-5 border-b-4 border-b-orange-700"> <h1>Contacts: </h1> </div>
+        <div className="md:col-span-3 col-span-2  text-xl md:text-2xl font-semibold py-3 mt-3 md:mt-5 border-b-4 border-b-orange-700"> <h1>Contacts: </h1> </div>
 
         <h3 className="w-fit col-span-2">
           <strong>Email: </strong>
@@ -37,27 +37,27 @@ const StudentDashboard = (props) => {
         <h3 className="w-fit">
           <strong>Phone No: </strong> {phone}
         </h3>
-        <h3 className="w-fit col-span-2 md:col-span-3">
+        <h3 className="w-fit col-span-2 md:col-span-2">
           <strong>LinkedIN: </strong>
           <a
             href={linkedIn}
             target="_blank"
             className=" hover:text-orange-300 transition-all"
           >
-            {linkedIn}
+            Link to profile
           </a>
         </h3>
-        <h3 className="w-fit col-span-2 md:col-span-3">
+        <h3 className="w-fit col-span-2 md:col-span-1">
           <strong>Stack Overflow: </strong>
           <a
             href={stackOverflow}
             target="_blank"
-            className=" hover:text-orange-300 transition-all text-sm md:text-xl"
+            className=" hover:text-orange-300 transition-all md:text-xl"
           >
-            {stackOverflow}
+            Link to profile 
           </a>
         </h3>
-        <div className="md:col-span-3 text-xl md:text-2xl font-semibold py-3 mt-3 md:mt-5 border-b-4 border-b-orange-700"> <h1>Co-curricular Activities:</h1> </div>
+        <div className="md:col-span-3 col-span-2 text-xl md:text-2xl font-semibold py-3 mt-3 md:mt-5 border-b-4 border-b-orange-700"> <h1>Co-curricular Activities:</h1> </div>
 
         <h3 className="w-fit">
           <strong>Clubs: </strong>{" "}

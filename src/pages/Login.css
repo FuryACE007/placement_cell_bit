@@ -1,9 +1,8 @@
 .neumorph {
-  -webkit-border-radius: 23px;
-border-radius: 23px;
-background: #cd7f32;
--webkit-box-shadow: 12px 12px 24px #ae6c2b, -12px -12px 24px #ec923a;
-box-shadow: 12px 12px 24px #ae6c2b, -12px -12px 24px #ec923a;
+  border-radius: 20px;
+background: #c5e490;
+box-shadow:  20px 20px 60px #a7c27a,
+             -20px -20px 60px #e3ffa6;
 }
 .neumorph_faculty {
   border-radius: 23px;

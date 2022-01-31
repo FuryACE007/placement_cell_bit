@@ -10,7 +10,7 @@ const StudentData = () => {
     useEffect(() => {
       const getStudent = async () => {
         const data = await getDocs(studentsCollectionRef);
-        setStudents(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
+        setStudents(data.docs.map((doc) => ({ ...doc.data(), id: doc.id})));
       };
       getStudent();
     }, []);
