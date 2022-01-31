@@ -1,9 +1,13 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
+
+import StudentForm from "../components/StudentForm";
 import "./Login.css";
 
 const FacultyLogin = () => {
   const facultyIdInputRef = useRef();
   const facultyPasswordInputRef = useRef();
+
+  const [authStatus, setAuthStatus] = useState();
 
   const submitHandler = (event) => {
     event.preventDefault();
@@ -11,14 +15,29 @@ const FacultyLogin = () => {
     const enteredFacultyId = facultyIdInputRef.current.value;
     const enteredFacultyPassword = facultyPasswordInputRef.current.value;
 
+    setAuthStatus(true);
+
     console.log(enteredFacultyId, enteredFacultyPassword);
   };
-
+  if (authStatus) {
+    return (
+      <div className="min-h-screen flex flex-col pb-12 px-4 lg:pt-28 pt-32 background">
+        <h1 className=" text-white text-4xl">
+          {" "}
+          This section of the website is still under development. The form shows
+          a general representation of the input form received by the faculties
+          for entering particular student data as well as for query. Would be
+          developed soon...{" "}
+        </h1>
+        <StudentForm />
+      </div>
+    );
+  }
   return (
     <div className="min-h-screen flex flex-col pb-12 px-4 lg:pt-28 pt-32 background">
       <div className="flex flex-col w-full lg:flex-row">
-        <div class=" bg-[#2c7be2] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
-          <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-slate-200 border-[#2a69bb]">
+        <div class=" bg-[#C1DEAE] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl text-white">
+          <h1 className=" text-2xl mb-8 pb-2 border-b-4 border-[#9bbb86]">
             {" "}
             Faculty Login{" "}
           </h1>
@@ -31,10 +50,10 @@ const FacultyLogin = () => {
                 <span class="label-text text-lg">Faculty ID</span>
               </label>
               <input
-                type="email"
+                type="text"
                 id="faculty_id"
                 placeholder=""
-                className=" bg-[#2a69bb] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-blue-600 ease-in duration-300 "
+                className=" bg-[#a5ca8c] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-[#9bbb86] ease-in duration-300 "
                 required
                 ref={facultyIdInputRef}
               />
@@ -45,13 +64,13 @@ const FacultyLogin = () => {
                 type="password"
                 id="faculty_password"
                 placeholder=""
-                className=" bg-[#2a69bb] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-blue-600 ease-in duration-300"
+                className=" bg-[#a5ca8c] outline-none border-0 rounded-lg py-3 px-2 focus:ring-2 focus:ring-[#9bbb86] ease-in duration-300"
                 required
                 ref={facultyPasswordInputRef}
               />
               <button
                 type="submit"
-                className=" text-left bg-blue-500 w-fit my-5 py-3 px-8 rounded-3xl text-slate-200 shadow-lg hover:shadow-md hover:text-slate-300 hover:bg-blue-600 ease-in duration-300"
+                className=" text-left bg-[#b6de9c] w-fit my-5 py-3 px-8 rounded-3xl shadow-lg hover:shadow-md hover:text-slate-100 hover:bg-[#9bbb86] ease-in duration-300"
               >
                 Log in
               </button>

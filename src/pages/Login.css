@@ -5,10 +5,10 @@ box-shadow:  20px 20px 60px #a7c27a,
              -20px -20px 60px #e3ffa6;
 }
 .neumorph_faculty {
-  border-radius: 23px;
-  background: #357ede;
-  box-shadow:  20px 20px 60px #2d6bbd,
-               -20px -20px 60px #3d91ff;
+  border-radius: 20px;
+background: #C1DEAE;
+box-shadow:  20px 20px 60px #a4bd94,
+             -20px -20px 60px #deffc8;
 }
 
 .background {
