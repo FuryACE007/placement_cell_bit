@@ -36,18 +36,18 @@ const FacultyLogin = () => {
   return (
     <div className="min-h-screen flex flex-col pb-12 px-4 lg:pt-28 pt-32 background">
       <div className="flex flex-col w-full lg:flex-row">
-        <div class=" bg-[#C1DEAE] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl text-white">
+        <div className=" bg-[#C1DEAE] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl text-white">
           <h1 className=" text-2xl mb-8 pb-2 border-b-4 border-[#9bbb86]">
             {" "}
             Faculty Login{" "}
           </h1>
           <form
-            class="px-16 card lg:w-2/5 md:w-3/5 w-5/6 py-20 neumorph_faculty shadow-md"
+            className="px-16 card lg:w-2/5 md:w-3/5 w-5/6 py-20 neumorph_faculty shadow-md"
             onSubmit={submitHandler}
           >
-            <div class="form-control">
-              <label htmlFor="faculty_id" class="label">
-                <span class="label-text text-lg">Faculty ID</span>
+            <div className="form-control">
+              <label htmlFor="faculty_id" className="label">
+                <span className="label-text text-lg">Faculty ID</span>
               </label>
               <input
                 type="text"
@@ -57,8 +57,8 @@ const FacultyLogin = () => {
                 required
                 ref={facultyIdInputRef}
               />
-              <label htmlFor="faculty_password" class="label mt-6">
-                <span class="label-text text-lg">Password</span>
+              <label htmlFor="faculty_password" className="label mt-6">
+                <span className="label-text text-lg">Password</span>
               </label>
               <input
                 type="password"

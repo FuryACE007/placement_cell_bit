@@ -76,12 +76,12 @@ const Main = () => {
 
       <div className="right-panel w-full md:w-2/5">
         <div className=" w-full px-5 py-4 items-center glassmorphism rounded-md shadow-lg pb-7 ">
-          <div class="collapse w-full border border-base-300 collapse-arrow bg-lime-500 backdrop-blur-xl bg-opacity-60 backdrop-filter bg-clip-padding border-none rounded-lg">
+          <div className="collapse w-full border border-base-300 collapse-arrow bg-lime-500 backdrop-blur-xl bg-opacity-60 backdrop-filter bg-clip-padding border-none rounded-lg">
             <input type="checkbox" />
-            <div class="collapse-title text-xl font-light">
+            <div className="collapse-title text-xl font-light">
               Process of Placement
             </div>
-            <div class="collapse-content">
+            <div className="collapse-content">
               <p className=" px-8 text-justify leading-relaxed text-lg border-l-4 border-lime-800">
                 <ul className=" list-disc">
                   <li>
