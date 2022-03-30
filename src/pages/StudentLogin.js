@@ -65,20 +65,20 @@ const Login = () => {
   } else {
       return (
         <div className=" min-h-screen flex flex-col pb-12 px-4 lg:pt-28 pt-32 background">
-          <div class="flex flex-col w-full lg:flex-row">
+          <div className="flex flex-col w-full lg:flex-row">
             {/* Student Login */}
 
-            <div class="bg-[#c5e490] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
+            <div className="bg-[#c5e490] grid flex-grow place-items-center lg:pt-16 lg:pb-32 md:pb-40 py-20 rounded-3xl">
               <h1 className=" text-2xl mb-8 pb-2 border-b-4 text-emerald-800 font-semibold border-[#9cc05d]">
                 Student Login
               </h1>
               <form
-                class=" px-16 card lg:w-2/5 md:w-3/5 w-5/6 py-20 neumorph shadow-md"
+                className=" px-16 card lg:w-2/5 md:w-3/5 w-5/6 py-20 neumorph shadow-md"
                 onSubmit={submitHandler}
               >
-                <div class="form-control">
-                  <label htmlFor="student_id" class="label">
-                    <span class="label-text text-lg text-emerald-700 font-medium">Student ID</span>
+                <div className="form-control">
+                  <label htmlFor="student_id" className="label">
+                    <span className="label-text text-lg text-emerald-700 font-medium">Student ID</span>
                   </label>
                   <input
                     type="text"
@@ -88,8 +88,8 @@ const Login = () => {
                     required
                     ref={studentIdInputRef}
                   />
-                  <label htmlFor="student_password" class="label mt-6">
-                    <span class="label-text text-lg text-emerald-700 font-medium">Password</span>
+                  <label htmlFor="student_password" className="label mt-6">
+                    <span className="label-text text-lg text-emerald-700 font-medium">Password</span>
                   </label>
                   <input
                     type="password"
